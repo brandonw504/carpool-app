@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.6.2)
+  - NWWebSocket (0.5.2)
+  - PusherSwift (10.1.1):
+    - NWWebSocket (~> 0.5.2)
+    - TweetNacl (~> 1.0.0)
+  - Realm (10.28.6):
+    - Realm/Headers (= 10.28.6)
+  - Realm/Headers (10.28.6)
+  - RealmSwift (10.28.6):
+    - Realm (= 10.28.6)
+  - TweetNacl (1.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - PusherSwift
+  - RealmSwift (~> 10)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - NWWebSocket
+    - PusherSwift
+    - Realm
+    - RealmSwift
+    - TweetNacl
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  NWWebSocket: 21f0c73639815da3272862c912275b26102aa80c
+  PusherSwift: 70a805a950ab49381e164c54ac19c3b9c1d288e3
+  Realm: 9b12f16a14446d7d46a9e36225d0a0332a6ec739
+  RealmSwift: 5927726fce21005f43b1fb57c832297a22031bfc
+  TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
+
+PODFILE CHECKSUM: f0f3ef300a036d206319c733d23911a799aff079
+
+COCOAPODS: 1.11.3

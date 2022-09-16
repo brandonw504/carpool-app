@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45865C22D7893AF38B617F45 /* Pods_carpool_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2118F1CA29F6087061F523 /* Pods_carpool_app.framework */; };
+		5B11511228BD424500B4B443 /* LocalSearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11511128BD424500B4B443 /* LocalSearchData.swift */; };
+		5B11511428BD426400B4B443 /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11511328BD426400B4B443 /* LocalSearchService.swift */; };
+		5B11511628BD75BD00B4B443 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11511528BD75BD00B4B443 /* DirectionsView.swift */; };
+		5B6757BF28B403F600AFDDFE /* carpool_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6757BE28B403F600AFDDFE /* carpool_appApp.swift */; };
+		5B6757C128B403F600AFDDFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6757C028B403F600AFDDFE /* ContentView.swift */; };
+		5B6757C328B403F900AFDDFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6757C228B403F900AFDDFE /* Assets.xcassets */; };
+		5B6757C628B403F900AFDDFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6757C528B403F900AFDDFE /* Preview Assets.xcassets */; };
+		5B87B35B28B5580700D06DCE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B87B35A28B5580700D06DCE /* Model.swift */; };
+		5B87B35D28B5952B00D06DCE /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B87B35C28B5952B00D06DCE /* AppState.swift */; };
+		5B87B35F28B5A09B00D06DCE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B87B35E28B5A09B00D06DCE /* LoginView.swift */; };
+		5BAC7DF128B99CCA0017D736 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC7DF028B99CCA0017D736 /* DestinationSearchView.swift */; };
+		5BB1096328B8461F00F5CD23 /* LocationBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1096228B8461F00F5CD23 /* LocationBinding.swift */; };
+		5BE12DE528B6F49700692391 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE12DE428B6F49700692391 /* SignUpView.swift */; };
+		5BE12DE728B6F6E200692391 /* OpaqueProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE12DE628B6F6E200692391 /* OpaqueProgressView.swift */; };
+		5BE12DE928B6FA7400692391 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE12DE828B6FA7400692391 /* HomeView.swift */; };
+		5BE12DEC28B7439E00692391 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE12DEB28B7439E00692391 /* LocationManager.swift */; };
+		5BE3BEA528BEDA7C007DD11C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3BEA428BEDA7C007DD11C /* MenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B11511128BD424500B4B443 /* LocalSearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchData.swift; sourceTree = "<group>"; };
+		5B11511328BD426400B4B443 /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
+		5B11511528BD75BD00B4B443 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		5B6757BB28B403F500AFDDFE /* carpool-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "carpool-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6757BE28B403F600AFDDFE /* carpool_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carpool_appApp.swift; sourceTree = "<group>"; };
+		5B6757C028B403F600AFDDFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B6757C228B403F900AFDDFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B6757C528B403F900AFDDFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B87B35A28B5580700D06DCE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5B87B35C28B5952B00D06DCE /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		5B87B35E28B5A09B00D06DCE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5BAC7DF028B99CCA0017D736 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		5BB1096228B8461F00F5CD23 /* LocationBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBinding.swift; sourceTree = "<group>"; };
+		5BE12DE428B6F49700692391 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5BE12DE628B6F6E200692391 /* OpaqueProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpaqueProgressView.swift; sourceTree = "<group>"; };
+		5BE12DE828B6FA7400692391 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5BE12DEB28B7439E00692391 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5BE3BEA428BEDA7C007DD11C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		63C364F60C7D6284266B5483 /* Pods-carpool-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpool-app.release.xcconfig"; path = "Target Support Files/Pods-carpool-app/Pods-carpool-app.release.xcconfig"; sourceTree = "<group>"; };
+		ADF47303C4C5FD5B80C4C45E /* Pods-carpool-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpool-app.debug.xcconfig"; path = "Target Support Files/Pods-carpool-app/Pods-carpool-app.debug.xcconfig"; sourceTree = "<group>"; };
+		AF2118F1CA29F6087061F523 /* Pods_carpool_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carpool_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B6757B828B403F500AFDDFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45865C22D7893AF38B617F45 /* Pods_carpool_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00AB0D290DEB8D8DEAC9ED8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADF47303C4C5FD5B80C4C45E /* Pods-carpool-app.debug.xcconfig */,
+				63C364F60C7D6284266B5483 /* Pods-carpool-app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B6757B228B403F500AFDDFE = {
+			isa = PBXGroup;
+			children = (
+				5B6757BD28B403F500AFDDFE /* carpool-app */,
+				00AB0D290DEB8D8DEAC9ED8F /* Pods */,
+				80CBC77EC038188A9DAD32A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B6757BC28B403F500AFDDFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B6757BB28B403F500AFDDFE /* carpool-app.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5B6757BD28B403F500AFDDFE /* carpool-app */ = {
+			isa = PBXGroup;
+			children = (
+				5B87B35A28B5580700D06DCE /* Model.swift */,
+				5B87B35C28B5952B00D06DCE /* AppState.swift */,
+				5B6757BE28B403F600AFDDFE /* carpool_appApp.swift */,
+				5BAC7DE928B990320017D736 /* Views */,
+				5BE12DEA28B6FAA800692391 /* Components */,
+				5B6757BC28B403F500AFDDFE /* Products */,
+				5B6757C228B403F900AFDDFE /* Assets.xcassets */,
+				5B6757C428B403F900AFDDFE /* Preview Content */,
+			);
+			path = "carpool-app";
+			sourceTree = "<group>";
+		};
+		5B6757C428B403F900AFDDFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B6757C528B403F900AFDDFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BAC7DE928B990320017D736 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B6757C028B403F600AFDDFE /* ContentView.swift */,
+				5BE12DE628B6F6E200692391 /* OpaqueProgressView.swift */,
+				5B87B35E28B5A09B00D06DCE /* LoginView.swift */,
+				5BE12DE428B6F49700692391 /* SignUpView.swift */,
+				5BE12DE828B6FA7400692391 /* HomeView.swift */,
+				5BAC7DF028B99CCA0017D736 /* DestinationSearchView.swift */,
+				5B11511528BD75BD00B4B443 /* DirectionsView.swift */,
+				5BE3BEA428BEDA7C007DD11C /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BB1096428B846D300F5CD23 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				5BE12DEB28B7439E00692391 /* LocationManager.swift */,
+				5BB1096228B8461F00F5CD23 /* LocationBinding.swift */,
+				5B11511128BD424500B4B443 /* LocalSearchData.swift */,
+				5B11511328BD426400B4B443 /* LocalSearchService.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		5BE12DEA28B6FAA800692391 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1096428B846D300F5CD23 /* Location */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		80CBC77EC038188A9DAD32A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF2118F1CA29F6087061F523 /* Pods_carpool_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B6757BA28B403F500AFDDFE /* carpool-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6757C928B403F900AFDDFE /* Build configuration list for PBXNativeTarget "carpool-app" */;
+			buildPhases = (
+				61A729FE2ACCFB3DDE1E8597 /* [CP] Check Pods Manifest.lock */,
+				5B6757B728B403F500AFDDFE /* Sources */,
+				5B6757B828B403F500AFDDFE /* Frameworks */,
+				5B6757B928B403F500AFDDFE /* Resources */,
+				92D4460FBCCFDC98CE77FD73 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "carpool-app";
+			productName = "carpool-app";
+			productReference = 5B6757BB28B403F500AFDDFE /* carpool-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B6757B328B403F500AFDDFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5B6757BA28B403F500AFDDFE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B6757B628B403F500AFDDFE /* Build configuration list for PBXProject "carpool-app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B6757B228B403F500AFDDFE;
+			productRefGroup = 5B6757BC28B403F500AFDDFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B6757BA28B403F500AFDDFE /* carpool-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B6757B928B403F500AFDDFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6757C628B403F900AFDDFE /* Preview Assets.xcassets in Resources */,
+				5B6757C328B403F900AFDDFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61A729FE2ACCFB3DDE1E8597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carpool-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D4460FBCCFDC98CE77FD73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carpool-app/Pods-carpool-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carpool-app/Pods-carpool-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-carpool-app/Pods-carpool-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B6757B728B403F500AFDDFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B87B35B28B5580700D06DCE /* Model.swift in Sources */,
+				5B6757C128B403F600AFDDFE /* ContentView.swift in Sources */,
+				5B11511628BD75BD00B4B443 /* DirectionsView.swift in Sources */,
+				5B6757BF28B403F600AFDDFE /* carpool_appApp.swift in Sources */,
+				5B11511228BD424500B4B443 /* LocalSearchData.swift in Sources */,
+				5B87B35F28B5A09B00D06DCE /* LoginView.swift in Sources */,
+				5BE12DE728B6F6E200692391 /* OpaqueProgressView.swift in Sources */,
+				5BE12DE928B6FA7400692391 /* HomeView.swift in Sources */,
+				5BE12DE528B6F49700692391 /* SignUpView.swift in Sources */,
+				5BB1096328B8461F00F5CD23 /* LocationBinding.swift in Sources */,
+				5BE3BEA528BEDA7C007DD11C /* MenuView.swift in Sources */,
+				5B11511428BD426400B4B443 /* LocalSearchService.swift in Sources */,
+				5B87B35D28B5952B00D06DCE /* AppState.swift in Sources */,
+				5BE12DEC28B7439E00692391 /* LocationManager.swift in Sources */,
+				5BAC7DF128B99CCA0017D736 /* DestinationSearchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B6757C728B403F900AFDDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B6757C828B403F900AFDDFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B6757CA28B403F900AFDDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF47303C4C5FD5B80C4C45E /* Pods-carpool-app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"carpool-app/Preview Content\"";
+				DEVELOPMENT_TEAM = FZ4MUK93F3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location tracking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonw504.carpool-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B6757CB28B403F900AFDDFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C364F60C7D6284266B5483 /* Pods-carpool-app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"carpool-app/Preview Content\"";
+				DEVELOPMENT_TEAM = FZ4MUK93F3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location tracking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonw504.carpool-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B6757B628B403F500AFDDFE /* Build configuration list for PBXProject "carpool-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6757C728B403F900AFDDFE /* Debug */,
+				5B6757C828B403F900AFDDFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B6757C928B403F900AFDDFE /* Build configuration list for PBXNativeTarget "carpool-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6757CA28B403F900AFDDFE /* Debug */,
+				5B6757CB28B403F900AFDDFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B6757B328B403F500AFDDFE /* Project object */;
+}
